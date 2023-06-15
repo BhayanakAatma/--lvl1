@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>My First Portfolio</title>
+	<meta content="Development portfolio of .... " name="description" property="og:description">
+
+	<link href="style.css" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> 
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,600,400" rel="stylesheet" type="text/css">
+  <script src="./index.js"></script>
+</head>
+
+<body>
+  <div class="preloader"></div>
+  <main>
+  <section class="intro">
+
+		<div class="intro-text"> 
+      <div class="Hi">
+				<h1>Hi! 👋  &mdash; My name is <span>Lucky</span>, I'm a <span>developer</span> 👨🏻‍💻 located in Nashik, MH.</h1>
+      </div>
+    </div>
+    
+	</section>
+
+  <section class="projects">
+    <div class="projects-collage">
+
+			<!-- Project One -->
+      <a class="project-item"  target="_blank">
+        <figure class="project-figure">
+          <div class="project-overlay"></div>
+          <img src="https://github.com/BhayanakAatma/LP-2/blob/main/library2.jpg?raw=true">
+          <figcaption class="project-text">
+            <h2>Project One</h2>
+            <p>Library Management</p>
+
+           <p class='hidden popUpdesc'> Made a full fledge library management system to make the life of librarian easy. 
+          </p>
+        <span id="githubRepo" href="https://github.com/jabedford"></span>
+        <span id="livePreview" href="https://codiejay.github.io/dict/"></span>
+
+          </figcaption>
+        </figure>
+			</a>
+
+      <a class="project-item" target="_blank">
+        <figure class="project-figure">
+          <div class="project-overlay"></div>
+          <img src="https://github.com/BhayanakAatma/LP-2/blob/main/Tour.jpg?raw=true">
+          <figcaption class="project-text">
+            <h2>Project Two</h2>
+            <p>Tours and Travel Website</p>
+
+           <p class='hidden popUpdesc'> Made a tour and travel website for my 3rd year mini project.
+          </p>
+        <span id="githubRepo" href="https://github.com/jabedford"></span>
+        <span id="livePreview" href="https://codiejay.github.io/dict/"></span>
+
+
+      </figcaption>
+      </figure>
+			</a>
+
+    </div>
+	</section>
+
+	
+	
+
+  <section class="content contact">
+
+    <div id='form'>
+      <h1>Drop a message below.</h1>
+      <p>And I'll get to you ASAP</p>
+      <form> 
+        <input type="text" placeholder="Your Awesome Name"> 
+        <input type="email" placeholder="Your cool email address">
+        <textArea placeholder="Message here please">
+        </textArea>
+        <div id='buttonDiv'>
+          <button>Send</button>
+        </div>
+      </form>
+    </div>
+    </section>
+
+  <footer>
+    <div class="wrapper">
+      <ul>
+        <li>
+          <a href="https://www.instagram.com/luckyn.exe/" target="_blank">Instagram</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/luckynirankari/" target="_blank">Linkedin</a>
+				</li>
+				<li>
+						<a href="https://github.com/BhayanakAatma" target="_blank">GitHub</a>
+					</li>
+      </ul>
+    </div>
+	</footer>
+
+  </main>
+
+  <div class="popUp">
+    <div class="popUpImg"></div>
+    <div id="popUpText">
+      <h1>Project's Name</h1>
+      <p class="projectDesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus non ipsum itaque ratione dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus non ipsum itaque ratione dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <div>
+        <a href="" id="githubLink"></a>
+        <a href="" id="previewLink"></a>
+      </div>
+
+    </div>
+    <span id="cancelBtn">X</span>
+  </div>
+</body>
+
+
+</html>
